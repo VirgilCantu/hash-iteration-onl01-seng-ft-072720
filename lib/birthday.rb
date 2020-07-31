@@ -12,5 +12,5 @@ def happy_birthday(birthday_kids)
 
 def age_appropriate_birthday(birthday_kids)
   birthday_kids.each do |kids_name, age|
-  if suite == :suite_a && name.start_with?("A")
+  if age < 12
 end
